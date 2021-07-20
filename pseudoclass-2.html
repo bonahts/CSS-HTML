@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pseudoclass-2.css">
+</head>
+<body>
+
+    <h1>Register</h1>
+     <form id="register-form" method="GET">
+     <div id="id-fullname">
+         <input class="input-item" type="text" name="fullname" placeholder="Full Name" required> 
+     </div>
+     <div>
+        <input class="input-item" type="email" name="email" placeholder="Email" value="qaifi@test.com" > 
+    </div>
+    <div>
+        <input class="input-item" type="age" name="age" placeholder="Age">
+    </div>
+    <div>
+        <input class="input-item" type="password" name="password" placeholder="Password" required maxlength="8">
+    </div>
+    <div>
+        <input class="input-item" type="confirm-password" name="confirm-password" placeholder="Confirm-Password" required maxlength="8">
+    </div>
+    <div>
+        <input type="checkbox">
+        <label id="check-box">I aggree to accept terms and conditions
+        </label>
+    </div>
+    <button id="btn-register">Register</button>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+h1{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+   
+}
+p{
+    color: rgb(19, 19, 20);
+    text-align: justify;
+    font-weight: 200;
+    /* line-height: 2; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+#second-paragraph{
+    border: 3px solid blue;
+    /* padding: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 28px; */
+
+    padding: 16px 20px 24px 28px;
+
+    /* margin: 48px;
+    margin-top: 48px;
+    margin-right: 24px;
+    margin-bottom: 32px;
+    margin-left: 60px; */
+    
+    margin: 48px 24px 32px 60px;
+}
+
+#ordered-list{
+    list-style-type: upper-roman;
+}
+#unordered-list{
+    list-style-type: square;
+}

@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+#topbar {
+    background-color: cornflowerblue;
+    padding: 24px 48px;
+    
+}
+
+ a {
+    color: black;
+} 
+
+.menu-item-1 {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 24px;
+    color: black;
+    text-decoration: none;
+} 
+
+.menu-item-1:link{
+    color: blue;
+}
+.menu-item-1:visited{
+    color: rgb(7, 7, 7);
+}
+.menu-item-1:hover{
+    color: red;
+}
+.menu-item-1:active {
+    color: purple;
+} 
+
+.menu-item-2{
+    font-size: 24px;
+    margin-right: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-item-2{
+    font-size: 24px;
+    margin-right: 24px;
+    color: black;
+    text-decoration: none;
+}
+.menu-item-2:link{
+    color: blue;
+}
+.menu-item-2:visited{
+    color: rgb(7, 7, 7);
+}
+.menu-item-2:hover{
+    color: red;
+}
+.menu-item-1:active {
+    color: purple;
+} 

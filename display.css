@@ -1,0 +1,19 @@
+h1{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+   
+}
+.image-item {
+    width: 250px;
+    height: 180px;
+}
+.image-wrapper {
+    display: inline;
+}
+.menu-item{
+    display: block;
+    /* display: none;  */
+    /* visibility: hidden; */
+    
+}

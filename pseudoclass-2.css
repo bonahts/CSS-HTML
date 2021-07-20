@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color:whitesmoke;
+}
+
+.input-item:focus {
+    background-color: lightblue;
+} 
+.input-item:disabled {
+   cursor: not-allowed;
+} 
+.input-item{
+     
+    width: 100%;
+    /* box-shadow: 2px; */
+    margin-bottom: 5px;
+    /* padding: 1px; */
+    border-radius: 3px;
+}
+#check-box{
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+#register-form {
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px #aaa;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+#btn-register {
+    font-size: 18px;
+    color: white;
+    margin-top: 15px;
+    background-color: rgba(0, 72, 255, 0.8);
+    border-radius: 8px;
+    border: 0px;
+    width: 100%;
+    pad: 8px 12px;
+    outline: none;
+    cursor: pointer;
+   
+}

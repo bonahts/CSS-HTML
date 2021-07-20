@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    /* background-color: #f2f6ff; */
+}
+header{
+    width: 100%;
+    height: 720px;
+    text-align: center;
+    padding: 32px;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* border-bottom: 1px solid #ccc; */
+    /* background-color: white; */
+    box-sizing: border-box;
+    position: relative;
+    background-image: url('https://www.freepik.com/free-photo/monstera-leafy-nature-background-wallpaper_15599954.htm');
+   
+    /* text-align: center; */
+    /* z-index: 10; */
+}
+/* #logo  {
+    margin-left: 50px;
+    margin-right: 24px;
+    letter-spacing: -1;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    color: blue;
+} */
+.menu-item {
+    margin: 0;
+    margin-right: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    font-size: 20px;
+    /* top: -5; */
+
+}
